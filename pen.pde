@@ -10,7 +10,7 @@ class Pen{
  //}
   
   void draw(){
-  background(192);
+  
   // draw brush stroke
   if(mousePressed){
     pg.beginDraw();

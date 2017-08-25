@@ -8,7 +8,7 @@ void setup() {
   background(135);
   pg = createGraphics(width, height);
   textSize(64);
-  text("word", 10, 30);
+  text("Welcome perspective drawing tool", 10, 30);
   
   
   pen = new Pen();
@@ -17,7 +17,7 @@ void setup() {
 
 void draw(){
   
-  stroke(126);
+  stroke(160);
     
   line(0,height/2, mouseX, mouseY);
   line(width,height/2, mouseX, mouseY);
